@@ -2,7 +2,7 @@ require 'curb'
 require "json"
 
 SERVER = "http://127.0.0.1:5000"
-FLAT_FILE_UPLOAD_TOKEN = "YbiLjp_65zvwj4ZixAyXxMU8SF_vLxkw9DgZyfoYqYyTLH_5shrjKd91gQaEaQDrz8zpPLEmFx9WK2HXz2rEag"
+FLAT_FILE_UPLOAD_TOKEN = "Paste here the FlatFileUploadToken provided by eCaring."
 
 def post_file(upload_file)
   puts "Uploading #{upload_file}..."
