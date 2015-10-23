@@ -113,7 +113,7 @@ config_files.each do |config_file|
   end
 end
 
-options[:server] ||= "https://secure.ecaring.com2"
+options[:server] ||= "https://secure.ecaring.com"
 
 if options[:debug]
   puts "options=#{(options).inspect}"
